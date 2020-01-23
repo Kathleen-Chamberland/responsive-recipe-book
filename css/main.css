@@ -1,84 +1,29 @@
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  line-height: 1.5;
-  font-family: Georgia, serif;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-header {
-  background-color: #ebfaf8;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-}
-
-h1, h2 {
-  font-family: "Sigmar One";
-  color: #c20628;
-}
-
 h1 {
-  font-size: 3rem;
-  margin: 0;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: .3em 0;
-  padding: 0;
-  width: 100%;
-}
-
-nav ul li {
-  display: inline-block;
-  font-size: 1.125rem;
-  margin: 0 0 .3rem;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: white;
-  background-color: #0d912e;
-  padding: .4em .5em;
-  border-radius: 4px;
-}
-
-.navigation a:hover {
-  background-color: #c20628;
-}
-
-.navigation .current {
-  background-color: #c20628;
-}
-
-main {
-  margin: 0;
-  padding: 0 .75em;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h2 {
-  font-size: 1.875rem;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-img {
-  display: block;
-  width: 100%;
+h3 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
-footer {
-  display: inline-block;
-  background-color: #ebfaf8;
-  width: 100%;
-  text-align: center;
-  color: #2f2d13;
-  padding: 0;
+.ingredients{
+font-family: garamond-premier-pro, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+p {
+font-family: garamond-premier-pro, serif;
+font-weight: 500;
+font-style: normal;
 }
