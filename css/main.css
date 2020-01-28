@@ -27,7 +27,6 @@ h2 {
   font-weight: 400;
   font-style: italic;
   font-size: 0.9em;
-  margin: 3rem;
 }
 
 p {
@@ -38,11 +37,9 @@ p {
 
  .ingredients,
  .preperation {
-   margin: 3rem;
  }
 
 nav {
-  margin: 3rem;
 }
 
 
