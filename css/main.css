@@ -43,3 +43,27 @@ p {
 nav {
   margin: 3rem;
 }
+
+.center-align {
+  margin: 0 auto;
+}
+
+.card,
+.large-card {
+  min-height: 12rem;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 3px solid #333;
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+}
+
+.card:focus,
+.card:hover,
+.large-card:focus,
+.large-card:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+}

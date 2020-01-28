@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Home ⋅ Cooking in Kats Kitchen</title>
+  <title>Recipes</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -10,21 +10,25 @@
   <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/cmf8vdk.css">
   <link rel="stylesheet" href="https://use.typekit.net/cmf8vdk.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Skip to Main</a></li>
+  </ul>
 
-<body>
   <header class="masthead pad-t wrapper" role="banner">
     <div class="grid grid-middle">
-      <div class="unit [ xs-1 s-1 m-1 l-2-3 xl-2-3 ] center-content-horizontal">
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] text-center">
         <h1 class="xena gutter-1-2" tabindex="0">Cooking in Kats Kitchen</h1>
       </div>
-      <div class="unit [ xs-1 s-1 m-1 l-2-3 xl-2-3 ]">
+      <div class="unit [ xs-1 s-1 m-1 l-1 ] text-center">
         <nav role="navigation" id="nav">
           <ul class="list-group-inline nav-list island-1-2">
-            <li><a class="btn btn-ghost push-1-8" href="index.html">Home</a></li>
-            <li><a class="btn btn-ghost push-1-8 current" href="christmas.html">Christmas</a></li>
+            <li><a class="btn btn-ghost push-1-8 current" href="index.html">Home</a></li>
+            <li><a class="btn btn-ghost push-1-8" href="christmas.html">Christmas</a></li>
             <li><a class="btn btn-ghost push-1-8" href="summer.html">Summer</a></li>
             <li><a class="btn btn-ghost push-1-8" href="more.html">More</a></li>
           </ul>
@@ -33,21 +37,45 @@
     </div>
   </header>
 
+  <main class="grid wrapper gutter-1-2 pad-t-1-2 pad-b-1-2" id="main" role="main" tabindex="0">
+    <div class="unit [ xs-1 s-1 m-1 l-1 xl-1 ] pad-b-1-2 gutter-1-4">
+      <h1 class="yotta" tabindex="0">The Other Page</h1>
+    </div>
 
-  <main>
-  <nav>
-    <ul>
-        <li><a href="brandysnaps.html">Brandy Snaps</a></li>
-        <li><a href="trailmixcookies.html">Trail Mix Cookies</a></li>
-        <li><a href="besteverbiscotti.html">Best Ever Biscotti</a></li>
-        <li><a href="linzercookies.html">Linzer Cookies</a></li>
-      </ul>
-    </nav>
+    <div class="unit [ xs-1 s-1 m-1 l-1 xl-1 ]">
+      <div class="grid grid-stretch">
+        <a href="brandysnaps.html" class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] large-card unit-content-distribute pad-t-2">
+          <div class="gutter">
+            <h2 class="push-1-2">This is a header</h2>
+            <p class="content-fill truncate">The truncate function allows you to preview a long section of text without making your whole layout look busy! It's super exciting.</p>
+          </div>
+        </a>
+        <a href="trailmixcookies.html" class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] card unit-content-distribute pad-t-2">
+          <div class="gutter">
+            <h2 class="push-1-2">This is a header</h2>
+            <p class="content-fill truncate">The truncate function allows you to preview a long section of text without making your whole layout look busy! It's super exciting.</p>
+          </div>
+        </a>
+        <a href="besteverbiscotti.html" class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] card unit-content-distribute pad-t-2">
+          <div class="gutter">
+            <h2 class="push-1-2">This is a header</h2>
+            <p class="content-fill truncate">The truncate function allows you to preview a long section of text without making your whole layout look busy! It's super exciting.</p>
+          </div>
+        </a>
+        <a href="linzercookies.html" class="unit [ xs-1 s-1 m-1-2 l-1-2 xl-1-2 ] card unit-content-distribute pad-t-2">
+          <div class="gutter">
+            <h2 class="push-1-2">This is a header</h2>
+            <p class="content-fill truncate">The truncate function allows you to preview a long section of text without making your whole layout look busy! It's super exciting.</p>
+          </div>
+        </a>
+      </div>
+    </div>
   </main>
 
-  <footer>
-    <p><small>© Cooking in Kats Kitchen.</small></p>
+  <footer class="grid wrapper gutter-1-2 pad-t-1-2 pad-b-1-2" tabindex="0" role="contentinfo">
+    <div class="unit [ xs-1 s-1 m-1 l-1 xl-1 ] gutter-1-4 center-text">
+      <p class="milli push-0">This is a footer</p>
+    </div>
   </footer>
 
 </body>
-</html>
