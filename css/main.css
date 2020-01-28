@@ -4,6 +4,7 @@ h1 {
   font-style: normal;
   color: #412600;
   font-size: 2.5em;
+
 }
 
 h4 {
@@ -43,6 +44,7 @@ p {
 nav {
   margin: 3rem;
 }
+
 
 .center-align {
   margin: 0 auto;
