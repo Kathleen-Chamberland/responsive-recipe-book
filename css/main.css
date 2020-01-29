@@ -4,6 +4,7 @@ h1 {
   font-style: normal;
   color: #412600;
   font-size: 2.5em;
+  margin: 3rem;
 
 }
 
@@ -13,6 +14,7 @@ h4 {
   font-style: normal;
   font-size: 1em;
   line-height: normal;
+  margin: 3rem;
 }
 
 h3 {
@@ -27,16 +29,19 @@ h2 {
   font-weight: 400;
   font-style: italic;
   font-size: 0.9em;
+  margin: 3rem;
 }
 
 p {
   font-family: garamond-premier-pro, serif;
   font-weight: 500;
   font-style: normal;
+  margin: 3rem;
 }
 
  .ingredients,
  .preperation {
+  margin: 3rem;
  }
 
 nav {
