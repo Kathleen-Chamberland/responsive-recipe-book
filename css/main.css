@@ -44,6 +44,15 @@ p {
   margin: 3rem;
  }
 
+ .ingredients{
+   font-family: acumin-pro, sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1em;
+   line-height: normal;
+ }
+
+
 nav {
 }
 
